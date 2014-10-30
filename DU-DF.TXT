@@ -1,0 +1,61 @@
+
+                              DU/32bit v1.11
+                                    &
+                              DF/32bit v1.11
+
+                                   for
+                                OS/2 v2.x
+
+
+                                 FreeWare
+
+                 Copyright (c) 1993,1994  Timo Kokkonen, OH6LXV
+
+
+ These programs work fine in my machines, but I don't guarantee that
+ these will run in your machinene (in fact I dont even guarantee these
+ to work :-).
+
+ Warranty: N/A (you'll be using these utilities on your own risk...)
+
+
+ DU.EXE         *nix like DU command, HPFS aware(?),
+                32bit OS/2 EXE, compiled using Borland C++
+                type 'DU /?' to get syntax.
+
+ DF.EXE         *nix like DF command
+                32bit OS/2 EXE, compiled using Borland C++
+                (at least FAT,HPFS,CDFS supported)
+
+
+ Files on this archive:
+
+ Length    Date    Time    Name          Description
+ ------    ----    ----    ----          ---------------------------------
+  27658  01-01-94  01:11  ^du.exe        executable for OS/2 v2.x
+  16394  01-01-94  01:11  ^df.exe        executable for OS/2 v2.x
+   2282  01-01-94  01:11  ^du-df.doc     this file
+   4266  01-01-94  01:11  ^src/du.c      source code of du.exe
+   4053  01-01-94  01:11  ^src/df.c      source code of df.exe
+   8352  01-01-94  01:11  ^msdos/df.exe  executable for DOS
+  26476  01-01-94  01:11  ^msdos/du.exe  executable for DOS
+
+
+
+ Note, these programs probably are not 100% bug free, since I made these
+ programs for my own use and when I got 'em doing what I want, I had no
+ particular interest to continue developing. So you probably gotta hack
+ these if you need support for some "queer" IFS or LAN...
+
+
+ Comments, bug reports/fixes, donations & postcards to:
+                                                        Timo Kokkonen
+                                                        Vahverontie 22
+                                                        FIN-40640  JYVASKYLA
+                                                        FINLAND
+
+                                                   email:  tjko@jyu.fi
+                                                           tjko@math.jyu.fi
+
+
+ 73 de OH6LXV...
