@@ -1,0 +1,27 @@
+# IBM Developer's Workframe/2 Make File Creation run at 03:02:57 on 09/22/94
+
+# Make File Creation run in directory:
+#   F:\DEVELOPPEMENT\PROJETS\DU;
+
+.SUFFIXES:
+
+.SUFFIXES: .c .cpp .cxx
+
+DU.EXE:  \
+  DU.OBJ \
+  MAKEFILE
+   ICC.EXE @<<
+ /Fe"DU.EXE" 
+DU.OBJ
+<<
+
+{.}.c.obj:
+   ICC.EXE /Ti /C   .\$*.c
+
+{.}.cpp.obj:
+   ICC.EXE /Ti /C   .\$*.cpp
+
+{.}.cxx.obj:
+   ICC.EXE /Ti /C   .\$*.cxx
+
+!include MAKEFILE.DEP

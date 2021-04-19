@@ -1,0 +1,27 @@
+# IBM Developer's Workframe/2 Make File Creation run at 03:02:57 on 09/22/94
+
+# Make File Creation run in directory:
+#   F:\DEVELOPPEMENT\PROJETS\DU;
+
+# Assumed INCLUDE environment variable path:
+#   F:\DEVELOPPEMENT\PROJETS\DU;
+#   F:\Developpement\Toolkt21\CPLUS\OS2H;
+#   F:\Developpement\Toolkt21\C\OS2H;
+#   F:\Developpement\Toolkt21\C\OS2H\VDD;
+#   F:\Developpement\Toolkt21\ASM\OS2INC;
+#   F:\Developpement\MMTOOLKT\H;
+#   F:\Developpement\MMTOOLKT\INC;
+#   F:\Developpement\IBMCPP\INCLUDE;
+#   F:\Developpement\IBMCPP\IBMCLASS;
+
+
+INCLUDE000=$(INCLUDE)
+
+
+DU.OBJ:  DU.C  \
+#  {$(INCLUDE000)}stdio.h  \
+#  {$(INCLUDE000)}stdlib.h  \
+#  {$(INCLUDE000)}string.h  \
+#  {$(INCLUDE000)}os2.h  \
+#  {$(INCLUDE000)}dos.h  \
+   MAKEFILE
